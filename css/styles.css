@@ -1,0 +1,374 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Alegreya Sans", system-ui;
+}
+.Heading__Font {
+  font-family: "Alegreya", system-ui;
+}
+.background {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.Logo{
+  float: left;
+}
+.list {
+  float: right;
+}
+ul {
+  list-style: none;
+}
+.clearfix {
+  clear: both;
+}
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  font-size: 90px;
+  margin-block: 30px;
+  font-weight: 300;
+}
+.firstsect {
+  height: 100vh;
+  background-image: url("../images/drew-coffman-1872.jpg");
+  background-size: 100% 100%;
+}
+.nav {
+  width: 88%;
+  position: fixed;
+}
+.Logo img {
+  width: 200px;
+  margin: 15px;
+}
+.list li {
+  float: left;
+  margin-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.list li a {
+  text-decoration: none;
+  color: #e0dcd2;
+  text-transform: capitalize;
+  padding-block: 20px;
+  padding-inline: 15px;
+  font-weight: 400;
+  font-family: "Alegreya", system-ui;
+}
+.Content {
+  padding-top: 200px;
+  text-align: center;
+  max-width: 700px;
+  margin-inline: auto;
+  color: white;
+}
+.Content p {
+  font-size: 24px;
+}
+.buttons {
+  margin-top: 20px;
+}
+.buttons button {
+  padding: 15px 28px;
+  color: white;
+  margin-inline: 10px;
+  border-radius: 4px;
+}
+.learnmore {
+  background-color: #8e7754;
+  border: 2px solid transparent;
+}
+.contactus {
+  background-color: transparent;
+  border: 2px solid white;
+}
+.Padding {
+  padding-block: 90px;
+}
+.whoweareSection h2 {
+  font-weight: 400;
+}
+.whoweareSection__Image {
+  width: 49.5%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.whoweareSection__Image img {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+}
+.whoweareSection__Content {
+  width: 49.5%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.whoweareSection__List img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(142, 119, 84, 0.225);
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.whoweareSection__List li {
+  margin-bottom: 10px;
+}
+.whoweareSection__List p {
+  display: inline-block;
+  width: calc(100% - 65px);
+  vertical-align: middle;
+  color: #8e7754;
+}
+.whoweareSection__Content--parg {
+  color: #686868;
+  line-height: 1.9;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Ourlocation {
+  background-color: #f8f8f8;
+}
+.Ourlocation p {
+  color: #686868;
+}
+.BakingSection {
+  text-align: center;
+  padding-inline: 50px;
+}
+.BakingSection h2 {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 30px;
+}
+.Header__BakingSection {
+  margin-bottom: 20px;
+}
+.Header__BakingSection p {
+  color: #888888;
+}
+.Content__BakingSection {
+  padding-inline: 50px;
+}
+.Card__BakingSection {
+  width: calc(99% / 3);
+  display: inline-block;
+  padding-inline: 20px;
+}
+.Card__BakingSection img {
+  width: 100%;
+}
+.Card__BakingSection h3 {
+  margin-block: 30px;
+  font-size: 22px;
+  color: #303030;
+  font-weight: 400;
+}
+.Card__BakingSection p {
+  color: #686868;
+  line-height: 1.8;
+  text-wrap: stable;
+  padding-inline: 10px;
+}
+.ContactInfo {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+.ContactInfo h2 {
+  font-size: 32px;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.whoweareSection__Content--parg {
+  font-size: 16px;
+  color: #686868;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+.whoweareSection__List {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+.whoweareSection__List li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.whoweareSection__List i {
+  background-color: #8e7754;
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: white;
+  margin-right: 10px;
+}
+.whoweareSection__List p {
+  margin: 0;
+  font-size: 16px;
+  color: #303030;
+}
+
+.ContactInfo li img {
+  vertical-align: middle;
+  width: 50px;
+  background-color: #947f5e;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.ContactInfo {
+  margin-left: 40px;
+}
+
+.ContactInfo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ContactInfo iframe {
+  width: 100%;
+  height: 500px;
+}
+
+.ContactInfo .right,
+iframe {
+  position: relative;
+}
+
+.overlay,
+.overlay img {
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.overlay {
+  width: 100%;
+}
+
+.overlay img {
+  background-color: transparent;
+  margin-left: 70px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.Footer {
+  background-color: gray;
+  background-color: #403d38;
+}
+.fotter__upper {
+  padding-block: 60px;
+}
+.fotter__lower {
+  background-color: #353330;
+}
+.card__fotter__upper {
+  padding-inline: 10px;
+  width: 25%;
+  float: left;
+}
+.card__fotter__upper li {
+  color: #969696;
+}
+.card__fotter__upper p {
+  color: #969696;
+}
+.card__fotter__upper h4 {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.card__fotter__upper li i {
+  font-size: 12px;
+  margin-right: 10px;
+}
+.card__fotter__upper li {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 2500, 0.05);
+  margin-bottom: 10px;
+}
+.card__Footer__Wrapper {
+  background-color: rgba(64, 61, 56, 0.8);
+  width: 100%;
+}
+.card__fotter__upper.map {
+  background-image: url("../images/contact-details-map.png");
+  background-size: 90% 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card__Footer__Wrapper p {
+  display: inline-block;
+  width: calc(99% - 30px);
+}
+.fa-location-dot {
+  width: 20px;
+  vertical-align: top;
+}
+.fotter__lower {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.fotter__lower P {
+  margin-block: 15px;
+  color: #777777;
+}
+.fotter__lower__list li i {
+  font-size: 25px;
+  color: #8c8a86;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.08);
+  line-height: 55px;
+  width: 55px;
+  height: 55px;
+}
+.fotter__lower__list li {
+  float: left;
+  margin-inline: 10px;
+}
+.fotter__lower__list {
+  display: inline-block;
+}
+
+.footer p {
+  font-size: 22px;
+}
+
+.footer1 {
+  color: rgb(134, 134, 134);
+  height: 300px;
+  background-color: rgb(53, 51, 48);
+  padding-top: 65px;
+  text-align: center;
+}
+
+.footer1 .logo {
+  width: 370px;
+}
+
+.footer1 .icon {
+  background-color: rgb(72, 69, 64);
+  border-radius: 50%;
+  width: 60px;
+  margin: 5px;
+}
